@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>About me</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header class="main-header">
-        <a href="index.html" id="logo">Lisa Leu</a>
-        <nav class= "nav">
-            <a class= "" href="index.html">About</a> |
-            <a class= "" href="portfolio.html">Portfolio</a> |
-            <a class= "" href="contact.html">Contact</a> 
-        </nav>
+    <header>
+        <section class="content-wrapper">
+            <div class="logo">
+                <h1><a href="index.html">Lisa Leu</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li> | 
+                    <li><a href="portfolio.html">Portfolio</a></li> | 
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
-    <div class="container">
-        <section class="main-section">
-            <h2>Portfolio</h2>
+    <main>
+    <section class="content-wrapper main-section">
+        <h2>Portfolio</h2>
             <hr>
             <div>
                 <img src="assets/images/" alt="">
@@ -39,10 +45,11 @@
                 <img src="" alt="">
                 <h3>UI/UX</h3>
             </div>  
-        </section>
-    </div>
+    </section>
+    </main>
+    <footer>
+        <span class="copyright">Copyright &copy;</span>
+    </footer>
 </body>
-<footer>
-    <span class="copyright">Copyright &copy;</span>
-</footer>
 </html>
+
