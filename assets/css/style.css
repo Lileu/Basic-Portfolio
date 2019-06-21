@@ -129,6 +129,8 @@ hr {
     margin-bottom: 20px;
 }
 
+/*footer*/
+
 footer {
     background-color: #666666;
     position: fixed;
@@ -176,3 +178,31 @@ footer {
 }
 
 /*contact us main*/
+
+ul#contact-form  {
+ margin-bottom: 20px;
+ list-style: none;
+ position: relative;
+ padding-left: 0;
+}
+
+#contact-form li{
+    margin-bottom: 20px;
+   }
+
+label {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+label, input[type=text], input[type=email], textarea {
+    display: block;
+    width: 100%;
+}
+
+
+::placeholder {
+    opacity: .6;
+
+  }
+
