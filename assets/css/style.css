@@ -6,6 +6,7 @@
 * {
     box-sizing: border-box;
 }
+/*body*/
 
 body {
     color: #777777;
@@ -17,14 +18,15 @@ body {
     padding: 0;
 }
 
-h1,
-h2 {
+h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h2 {
     color: #4aaaa5;
 }
+
+/*header*/
 
 header {
     display: block;
@@ -57,6 +59,8 @@ header h1 {
     height: 100%;
     margin: 0 auto;
 }
+
+/*main*/
 
 main {
     width: 100%;
@@ -139,4 +143,35 @@ footer {
 
 .copyright  {
     color: #ddd;
+}
+
+/*portfolio*/
+
+.project    {
+    position: relative;
+    float: left;
+    overflow: auto;
+    margin: 20px 25px;
+}
+
+.project img {
+    width: 100%;
+    border: 0 none;
+    opacity: .8;
+}
+
+
+.project h3 {
+    position: absolute;
+    width: 100%;
+    text-align: centre;
+    background: #4aaaa5;
+    color: #fff;
+    padding: 15px;
+    bottom: 20px;
+    border-bottom: 0;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 900;
+
 }
