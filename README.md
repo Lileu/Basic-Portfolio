@@ -6,13 +6,8 @@ First homework assignment for the Monash University Coding Bootcamp (June 2019 c
 2. CSS
 
 ## Stuff I used
-float
-padding
-margin
-display
-overflow
-clear
-text-align
+* CSS properties: float, padding, margin, display, overflow, clear, text-align, pseudo-elements
+* placeholder images from http://lorempixel.com/
 
 ## Stuff I learned
 * adding structure to a page with HTML is easy
